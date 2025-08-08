@@ -1,12 +1,48 @@
-# React + Vite
+# 🎥 3D Animated Cylinder with React Three Fiber & Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a fully interactive, animated **3D cylinder** using **React Three Fiber**, **Framer Motion**, and **Three.js**. It combines real-time WebGL rendering with physics-based UI animation, creating a visually rich and interactive 3D experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+<img width="885" height="747" alt="image" src="https://github.com/user-attachments/assets/eebe016c-5828-4fdf-92b6-0ba946f55044" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="833" height="642" alt="image" src="https://github.com/user-attachments/assets/d740d8b8-9bdf-4315-8ca4-9fdcc8ffc45c" />
+
+<img width="846" height="673" alt="image" src="https://github.com/user-attachments/assets/553bc570-90be-4aec-8ffb-aa6007e34579" />
+
+
+
+---
+
+## ✨ Features
+
+- 🌀 Real-time 3D rendering using React Three Fiber
+- ⚡ Smooth hover-based animations via Framer Motion
+- 🖱️ OrbitControls for camera interaction
+- 💡 Emissive materials (ready for bloom effects)
+- 🔁 Continuous rotation using `useFrame`
+- 🧼 Clean and modular React code
+
+---
+
+## 🧰 Tech Stack
+
+| Library             | Purpose                         |
+|---------------------|----------------------------------|
+| `three`             | Core 3D rendering engine         |
+| `@react-three/fiber`| React renderer for Three.js      |
+| `@react-three/drei` | Useful helpers (like OrbitControls) |
+| `framer-motion`     | Animation library for UI motion  |
+| `react`             | UI framework                     |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/RRRishav/Three.git
+cd Three
